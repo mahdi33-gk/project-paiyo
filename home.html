@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +9,60 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- css -->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main class="flex justify-center">
-        <section >
+        <section>
             <div class="mockup-phone">
                 <div class="camera"></div>
                 <div class="display">
-                  <div class="artboard artboard-demo phone-3">
-                    <div>
-                        <div class="stats shadow">
-                            <div class="stat">
-                              <div class="stat-title">Available Balance</div>
-                              <div class="stat-value">9400</div>
+                    <div class="artboard artboard-demo phone-3">
+                        <div>
+                            <div class="stats shadow">
+                                <div class="stat">
+                                    <div class="stat-title">Available Balance</div>
+                                    <div class="stat-value">9400</div>
+                                </div>
                             </div>
                         </div>
+                        <div class="divider"></div>
+                        <!-- btn -->
+                        <div class="">
+                            <button class="btn btn-lg ">ADD</button>
+                            <button class="btn btn-lg">Withdraw</button>
+                        </div>
+                        <div class="divider"></div>
+                        
+                        <!-- input form start -->
+                        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                            <form class="card-body">
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="label-text">Email</span>
+                                    </label>
+                                    <input type="email" placeholder="email" class="input input-bordered" required />
+                                </div>
+                                <div class="form-control">
+                                    <label class="label">
+                                        <span class="label-text">Password</span>
+                                    </label>
+                                    <input type="password" placeholder="password" class="input input-bordered"
+                                        required />
+                                    <label class="label">
+                                        <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                                    </label>
+                                </div>
+                                <div class="form-control mt-6">
+                                    <button class="btn btn-primary">Login</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- input form end -->
                     </div>
-                    <div class="divider"></div>
-                    <!-- btn -->
-                    <div class="">
-                        <button class="btn btn-lg ">ADD</button>
-                        <button class="btn btn-lg">Withdraw</button>
-                    </div>
-                    
                 </div>
-                </div>
-              </div>
+            </div>
         </section>
     </main>
 
@@ -42,4 +70,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
