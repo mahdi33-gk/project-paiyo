@@ -1,4 +1,6 @@
 document.getElementById('login-btn').addEventListener('click', function(event){
     const numberMail = document.getElementById('input-value').value;
-    console.log(numberMail);
+    const passPin = document.getElementById('pass-value').value;
+    event.preventDefault();
+    console.log(numberMail, passPin);
 })
