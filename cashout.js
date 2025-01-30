@@ -1,4 +1,5 @@
-document.getElementById('cashout-btn').addEventListener('click', function(){
+document.getElementById('cashout-btn').addEventListener('click', function(event){
+    event.preventDefault();
     const updateBalance = document.getElementById('main-balance').innerText;
     const balance = parseFloat(updateBalance);
     const pinNumber = document.getElementById('cashout-pin').value;
