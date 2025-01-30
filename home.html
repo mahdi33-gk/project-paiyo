@@ -30,13 +30,13 @@
                         <div class="divider"></div>
                         <!-- btn -->
                         <div class="">
-                            <button class="btn btn-lg ">ADD</button>
-                            <button class="btn btn-lg">Withdraw</button>
+                            <button id="addMoney-btn" class="btn btn-lg ">ADD</button>
+                            <button id="cashOut-btn" class="btn btn-lg">Withdraw</button>
                         </div>
                         <div class="divider"></div>
 
                         <!-- input form start -->
-                        <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <div id="addMoney-container" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                             <form class="card-body">
                                 <div class="form-control">
                                     <label class="label">
@@ -59,13 +59,13 @@
                         <!-- input form end -->
 
                         <!-- cashout form start -->
-                        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <div id="cashOut-container" class="card hidden bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                             <form class="card-body">
                               <div class="form-control">
                                 <label class="label">
                                   <span class="label-text">Enter Ammout</span>
                                 </label>
-                                <input id="cashout-ammount" type="text" placeholder="Ammout" class="input input-bordered" required />
+                                <input id="cashout-ammount" type="email" placeholder="Ammout" class="input input-bordered" required />
                               </div>
                               <div class="form-control">
                                 <label class="label">
@@ -89,6 +89,7 @@
 
     <script src="/home.js"></script>
     <script src="/cashout.js"></script>
+    <script src="/another-Feature.js"></script>
 </body>
 
 </html>
