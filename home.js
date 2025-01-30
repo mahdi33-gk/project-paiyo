@@ -8,9 +8,12 @@ document.getElementById("add-btn").addEventListener("click", function (event) {
     const newBalance = parseInt(Balance);
     const showBalance = newBalance + realMoney;
     
-    showBalance  =  Balance.innerText;
-    console.log(showBalance);
     
+    console.log(Balance);
+    
+  }
+  else{
+    alert ('wronng pin');
   }
 
   
