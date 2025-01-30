@@ -1,11 +1,13 @@
 document.getElementById("add-btn").addEventListener("click", function (event) {
   event.preventDefault();
   const MoneyAmmount = document.getElementById("add-input").value;
+  const realMoney = parseInt(MoneyAmmount);
   const getPin = document.getElementById("add-pin").value;
   const Balance = document.getElementById("main-balance").innerText;
   if (getPin === "1234") {
     const newBalance = parseInt(Balance);
-    console.log(3333333);
+    const showBalance = newBalance + realMoney;
+    console.log(typeof newBalance, typeof MoneyAmmount);
   }
 
   
