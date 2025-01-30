@@ -7,6 +7,8 @@ document.getElementById("add-btn").addEventListener("click", function (event) {
   if (getPin === "1234") {
     const newBalance = parseInt(Balance);
     const showBalance = newBalance + realMoney;
+    Balance.innerText = showBalance;
+    console.log(showBalance);
     
   }
 
