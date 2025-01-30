@@ -5,10 +5,8 @@ document.getElementById("add-btn").addEventListener("click", function (event) {
   const Balance = document.getElementById("main-balance").innerText;
   if (getPin === "1234") {
     const newBalance = parseInt(Balance);
-    const setInput = newBalance + MoneyAmmount;
-    Balance.innerText = setInput;
-    console.log(newBalance);
+    console.log(3333333);
   }
 
-  console.log(MoneyAmmount, getPin);
+  
 });
